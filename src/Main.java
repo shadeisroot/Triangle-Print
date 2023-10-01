@@ -18,11 +18,28 @@ public class Main {
                 System.out.print(asterix);
             }
         }
+
         System.out.println("\n");
         System.out.println("C");
         for (int i = 0; i < 10; i++) {
             System.out.print("\n");
+
+            for (int k = 0; k < i; k++) {
+                System.out.print(" ");
+            }
             for (int j = 9; j >= i; j--) {
+                System.out.print(asterix);
+            }
+        }
+
+        System.out.println("\n");
+        System.out.println("D");
+        for (int i = 0; i < 10; i++) {
+            System.out.print("\n");
+            for (int j = 9; j >= i; j--) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < i; k++) {
                 System.out.print(asterix);
             }
         }
